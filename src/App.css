@@ -1,18 +1,139 @@
 .App {
   text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 80px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.mapa{
+  width: 90%;
+  height: 400px
+ 
+}
+h1{
+  color: #144322;
+}
+.t-center{
+  text-align: justify;
+}
+.img-h{
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 90%;
+}
+.dereca{
+  display: flex;
+  flex-direction: row-reverse;
+  
 
+}
+.m-a-c{
+  color: white;
+  margin-top: 20px;
+  margin-right: 65px;
+}
+.text{
+  
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  background-color: transparent;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text:hover{
+  
+  border-color: green;
+}
+.textm{
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+ 
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  background-color: transparent;
+  color: rgb(12, 12, 12);
+}
+h3{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+}
+#delegar {
+  position:fixed;
+  right: 10px;
+  bottom: 120px;
+}
+#delegar1 {
+  position:fixed;
+  right: 10px;
+  bottom: 60px;
+}
+.img-fluid2{
+    width: 90%;
+}
+.i1{
+  width: 50px;
+  margin-bottom: 9px;
+}
+.i2{
+  width: 55px;
+  margin-bottom: 6px;
+}
+.i3{
+  width: 65px;
+}
+.product-img{
+  padding: 15px;
+}
+#delegar2 {
+  position:fixed;
+  right: 5px;
+  bottom:   0px;
+}
+#delegar3 {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  bottom: 540px;
+}
+.text-lg-start{
+  
+ 
+  margin-right: 0px;
+  margin-left: -50px;
+  width: 104%;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgb(16, 97, 16) !important;
+}
+
+.textm:hover{
+  border-color: green;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+h2{
+  color: green;
+}
+.c-content{
+  text-align: justify !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +155,153 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.nav-item{
+  font-size: 17px;
+  margin-left: 40px;
+  
+}
+.navbar-expand-lg  {
+  display: flex !important;
+  background-color: rgb(238, 238, 238);
+  flex-basis: auto;
+  flex-direction: row-reverse;
+}
+.img{
+  width: 100%;
+}
+.title{
+  color: green;
+  border-bottom: 5px solid green;
+}
+.pro{
+  width: 10%;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.plantula{
+  width: 15%;
+}
+
+.pro2{
+  width: 4%;
+  margin-bottom: 28px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bannerimg{
+  margin-top: 50px;
+  width: 60%;
+  border-radius: 10px 10px 10px 10px;
+}.mainprodutcs{
+  width: 40%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#collapseExample,#collapseExample1,#collapseExample2{
+  background-color: rgb(255, 255, 255) ;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.btn-secondary{
+  background-color: #144322 !important;
+}
+.btn-secondary:hover{
+  background-color: #237239 !important;
+}
+.btn-success{
+  background-color: #144322 !important;
+}
+.btn-success:hover{
+  background-color: #1d6231 !important;
+}
+.cell{
+  display: none;
+}
+.proc{
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 30%;
+}
+.proc2{
+  width: 10%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.text-muted{
+  text-align: justify;
+}
+.te{
+  color: #144322;
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+}
+
+@media (max-width: 800px) {
+  .App {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 130px;
+  }
+  .pc{
+    display: none;
+  }
+ .cell{
+  display: inline;
+ }
+  .inicio{
+    border-style: solid;
+    border-color: rgb(15, 95, 15);
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pres{
+    padding: 1px;
+    font-style: italic;
+    font-size: 25px;
+  }
+  .iniciop{
+
+    padding: 10px;
+  
+  }
+  .img-i{
+    width: 90%;
+  }
+  #delegar {
+    position:fixed;
+    right: 5px;
+    bottom: 120px;
+  }
+  #delegar1 {
+    position:fixed;
+    right: 6px;
+    bottom: 60px;
+  }
+
+  .product-img{
+    padding: 15px;
+  }
+  #delegar2 {
+    position:fixed;
+    right: 0px;
+    bottom:   0px;
+  }
+  #delegar3 {
+    display: flex;
+    position: fixed;
+  
+    right: 0px;
+   
   }
 }
